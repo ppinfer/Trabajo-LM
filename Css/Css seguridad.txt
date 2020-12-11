@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>
+</title>
+</head>
+<body>
+
+<h1>Web4U</h1>
+<p>Propiedades CSS <br>
+
+Veremos las dos formas de trabajar con CSS desde HTML que pueden usarse sin necesitar archivos externos. Los 3 primeros seguiran el modo <strong>"dentro de la linea" </strong>, que se trata de un estilo que se añade para ese texto en concreto (un encabezado por ejemplo), y los dos siguiente seguiran con el modo <strong>"interno"</strong>, que se basa en un elemento &ltstyle&gt en la parte &lthead&gt, lo que permite agregar varias modificaciones que afectaran a <strong>todos</strong> los textos que se indiquen para ese estilo   </p>
+	<h3>1º Color del Texto</h3>
+Para cambiar el color de un texto utilizamos lo siguiente:
+<br>
+<strong> &lth1 style="color:blue;"&gt </strong> Texto de ejemplo <strong>  &lt/h1&gt  </strong>
+
+<br>
+*Supuesta imagen*
+<br><br>
+Para obtener más información <a href="https://www.w3schools.com/html/html_css.asp">Click aquí</a>
+</p>
+
+<h3>2º Fuente del Texto</h3>
+Para cambiar la fuente de un texto utilizamos lo siguiente:
+<br>
+<strong> &lth1 style="font-family:courier;"&gt </strong> Texto de ejemplo <strong>  &lt/h1&gt  </strong>
+
+<br>
+*Supuesta imagen*
+<br><br>
+Para obtener más información <a href="https://www.w3schools.com/html/html_css.asp">Click aquí</a>
+</p>
+
+<h3>3º Bordes </h3>
+Para agregar bordeado a un texto utilizaremos lo siguiente:
+<br>
+<strong> &lth1 style="border: 2px solid powderblue;"&gt </strong> Texto de ejemplo <strong>  &lt/h1&gt  </strong>
+<br>*Supuesta imagen*
+
+<br>
+En este casó hemos añadido color con "powderblue", pero si se suprime esa parte, se creará el borde de color negro por defecto.
+<br><br>
+Para obtener más información <a href="https://www.w3schools.com/html/html_css.asp">Click aquí</a>
+</p>
+
+	<h3>4º Relleno</h3>
+Para cambiar el relleno de un texto (espacio entre el texto y su borde) colocamos en &ltstyle&gt dentro de &lthead&gt:
+<br>
+<strong> h1 {
+  border: 2px solid powderblue;
+  padding: 30px;
+} </strong>
+
+<br>
+*Supuesta imagen*
+<br><br>
+Para obtener más información <a href="https://www.w3schools.com/html/html_css.asp">Click aquí</a>
+</p>
+
+
+	<h3>5º Margen</h3>
+Para cambiar el margen de un texto (espacio fuera del borde) colocamos en &ltstyle&gt dentro de &lthead&gt:
+<br>
+<strong> h1 {
+  border: 2px solid powderblue;
+  margin: 50px;
+} </strong>
+
+<br>
+*Supuesta imagen*
+<br><br>
+Para obtener más información <a href="https://www.w3schools.com/html/html_css.asp">Click aquí</a>
+</p>
+
+
+</body>
+</html>

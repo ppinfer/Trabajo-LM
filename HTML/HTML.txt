@@ -1,0 +1,60 @@
+<html>
+<head>
+<style>
+h1,h3{font-family: 'Courier New', monospace;
+}
+h1{text-align: center;
+}
+
+</style>
+
+
+<title>
+</title>
+</head>
+<body>
+
+<h1>Web4U</h1>
+<p style="text-align: center";>Etiquetas Básicas de HTML</p>
+
+	<h3>1º Cabecera</h3>
+En HTML las cabeceras se utilizan para indicar títulos o subtítulos. Puedes utilizar hasta 6 variedades, desde la más "importante" con <strong>&lth1&gt</strong>, a la menos importante <strong> &lth6&gt</strong>, en función del texto que quieras representar.<br>
+*Supuesta imagen*
+<br><br>
+Para obtener más información <a href="https://www.w3schools.com/html/html_headings.asp">Click aquí</a>
+</p>
+
+<h3>2º Salto de Línea</h3>
+Para representar uno (o varios) saltos de línea se utiliza el elemento <strong> &ltbr&gt</strong>. A diferencia de otras etiquetas, no necesitas acabar con un <strong> &lt/br&gt</strong>. <br>
+*Supuesta imagen*
+<br><br>
+Para obtener más información <a href="https://www.w3schools.com/html/html_elements.asp">Click aquí</a>
+</p>
+
+<h3>3º Links </h3>
+Para incluir un link en HTML usa la etiqueta <strong> &lta href="</strong>Url_del_link<strong>"&gt</strong>Texto vinculado al link<strong> &lt/a&gt</strong>
+<br>
+*Supuesta imagen*
+<br><br>
+Para obtener más información <a href="https://www.w3schools.com/html/html_basic.asp">Click aquí</a>
+</p>
+
+
+<h3>4º Listas ordenadas</h3>
+Para representar listas ordenadas utilizamos la etiqueta <strong> &ltol&gt</strong>. Para continuar, cada item que queramos añadir necesita usar el elemento <strong> &ltli&gt</strong>. ¡Recuerda cerrar la lista con <strong> &lt/ol&gt</strong>!. <br>
+*Supuesta imagen*
+<br><br>
+Para obtener más información <a href="https://www.w3schools.com/html/html_lists.asp">Click aquí</a>
+</p>
+
+
+	<h3>5º Tablas</h3>
+Para representar tablas utilizamos la etiqueta <strong> &lttable&gt</strong>. Para continuar, en cada fila de la tabla usamos  <strong> &lttr&gt</strong> (principio y final de la fila), e iremos añadiendo celda a celda con la etiqueta  <strong> &lttd&gt</strong>, pudiendo indicar en la primera fila el encabezado con  <strong> &ltth&gt</strong>. ¡Recuerda cerrar la lista con <strong> &lt/table&gt</strong>!.   
+<br>
+*Supuesta imagen*
+<br><br>
+Para obtener más información <a href="https://www.w3schools.com/html/html_tables.asp">Click aquí</a>
+</p>
+
+</body>
+</html>
